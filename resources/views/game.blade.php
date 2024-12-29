@@ -1,6 +1,6 @@
 <x-main-layout pageTitle="Countries 6 Capitals Quiz">
     <div class="container">
-        <x-question :country="$country" :currentQuestion="$currentQuestion" :totalQuestions="$totalQuestion" />
+        <x-question :country="$country" :currentQuestion="$currentQuestion" :totalQuestion="$totalQuestion" />
         <div class="row">
             <div class="col-6 text-center">
                 <p class="response-option">[CAPITAL 1]</p>

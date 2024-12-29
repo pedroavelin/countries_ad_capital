@@ -101,7 +101,7 @@ class MainController
 
       return view('game')->with([
         'country' => $quiz[$current_question]['country'],
-        'totalQuestions' => $total_questions,
+        'totalQuestion' => $total_questions,
         'currentQuestion' => $current_question + 1,
         'answers' => $answers
       ]);
