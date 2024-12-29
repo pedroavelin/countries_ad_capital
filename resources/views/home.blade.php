@@ -3,7 +3,7 @@
     <div class="container mt-3">
         <div class="row justify-content-center">
             <div class="col-4 text-center">
-                <form action="{{ route('prepare_Game') }}" method="post">
+                <form action="{{ route('prepare_game') }}" method="POST">
                     @csrf
                     <div class="mt-3 mb-5">
                         <label class="form-label display-6 mb-3" for="total_questions">Número de perguntas:</label>
